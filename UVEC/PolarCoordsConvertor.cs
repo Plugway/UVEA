@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Diagnostics;
 
 namespace UVEC
 {
@@ -98,8 +99,12 @@ namespace UVEC
                 }
                 CompleteBitmap(convertedBitmap);
                 convertedBitmap.RotateFlip(RotateFlipType.RotateNoneFlipX);
+                var stopwatch = new Stopwatch();
+                stopwatch.Start();
                 convertedBitmap.Save($"{videoPath}OutputSequence\\{(t + 1).ToString()}.png");
-                Progress.Report(t, numberOfFrames);
+                stopwatch.Stop();
+                Console.WriteLine($"{stopwatch.ElapsedMilliseconds} ms");
+                //Progress.Report(numberOfFrames, videoPath);
             }
         }
     }
