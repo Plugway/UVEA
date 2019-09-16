@@ -1,0 +1,7 @@
+C:\Users\EgorK\source\repos\UVEC\UVEC\bin\Debug\UVEC.exe.config
+C:\Users\EgorK\source\repos\UVEC\UVEC\bin\Debug\UVEC.exe
+C:\Users\EgorK\source\repos\UVEC\UVEC\bin\Debug\UVEC.pdb
+C:\Users\EgorK\source\repos\UVEC\UVEC\obj\Debug\UVEC.csproj.CoreCompileInputs.cache
+C:\Users\EgorK\source\repos\UVEC\UVEC\obj\Debug\UVEC.exe
+C:\Users\EgorK\source\repos\UVEC\UVEC\obj\Debug\UVEC.pdb
+C:\Users\EgorK\source\repos\UVEC\UVEC\obj\Debug\UVEC.csprojAssemblyReference.cache
