@@ -7,9 +7,9 @@ namespace UVEC
 {
     class Program
     {
-        static readonly double OutputFps = 30.0;
+        static readonly double OutputFps = 30.0; //fps на выходе
         static readonly int FreeMemory = 700;  //В мегабайтах
-        const int PixelsInMb = 61440;
+        const int PixelsInMb = 61440;           //примерно столько пикселей умещается в мегабайт
 
         static string VideoPath = @"E:\test\";
         static string VideoName = "test.mp4";
@@ -169,7 +169,7 @@ namespace UVEC
         }
         public static void Generate()
         {
-            Console.WriteLine('?');
+            Console.WriteLine("Choose algorithm(1 - full frame generator, 2 - part frame render & unite)");
             if (int.Parse(Console.ReadLine()) == 1)
                 Generate1();
             else
